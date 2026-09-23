@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://news-pulse-backend-215k.onrender.com";
 
 export const getTimeline = async () => {
     const response = await fetch(
